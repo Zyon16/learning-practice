@@ -1,0 +1,9 @@
+POST http://0.0.0.0:8081/getIt
+content-type: application/json
+
+{
+    "brand": "free",
+    "device": "iphone",
+    "country": "cn",
+    "genre": "36"
+}
