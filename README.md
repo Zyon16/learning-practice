@@ -3,7 +3,13 @@
 
 涉及到一些实战案例的代码仓库
 
+工具：
+- [Sekiro](https://sz134055.github.io/post/js-rpc-xue-xi-ji-shi-zhan/)-[Sekiro](./Sekiro)
+    - 官方渠道下载：[Sekiro](https://oss.iinti.cn/sekiro/sekiro-demo)
 目录：
+- [广东省公共资源交易平台](https://sz134055.github.io/post/js-rpc-xue-xi-ji-shi-zhan/#%E5%AE%9E%E6%88%98-%E6%B3%A8%E5%85%A5-%E6%9B%BF%E6%8D%A2%E6%96%B9%E5%BC%8F)-[gdggzy](./gdggzy/)
+- [今日头条](https://sz134055.github.io/post/js-rpc-xue-xi-ji-shi-zhan/#%E5%AE%9E%E6%88%98-%E6%B2%B9%E7%8C%B4%E6%B3%A8%E5%85%A5%E6%96%B9%E5%BC%8F)-[jrtt](./jrtt/)
+- [同花顺](https://sz134055.github.io/post/js-rpc-xue-xi-ji-shi-zhan/#%E5%AE%9E%E6%88%98-%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%B3%A8%E5%85%A5%E6%96%B9%E5%BC%8F)-[ths](./ths)
 - [Bilibili直播](https://sz134055.github.io/post/websocket-ni-xiang-yu-shi-zhan)-[danmu](./danmu/)
 - [中国产业政策大数据平台](https://sz134055.github.io/post/octet-stream-ji-shi-zhan)-[zcdsjpt](./zcdsjpt/zcdsjpt.js)
 - [国家医保服务平台](https://sz134055.github.io/post/guo-mi-smxi-lie-ni-xiang-xue-xi)-[SM/gjyb](./SM/gjyb/)

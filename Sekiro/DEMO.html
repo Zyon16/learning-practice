@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sekiro TEST</title>
+</head>
+<body>
+<h1>Sekiro TEST</h1>
+<!--加载JsClient-->
+<script src="https://sekiro.virjar.com/sekiro-doc/assets/sekiro_web_client.js"></script>
+<script>
+        function pwdEncypt(pwd){
+            //假设此方法为加密方法
+            return pwd+"abc123"
+        }
+
+        function guid() {
+            function S4() {
+                  return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+            }
+            return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+        }
+        
+        //注册Group，名为rpc-test
+        var client = new SekiroClient("ws://127.0.0.1:5620/business-demo/register?group=rpc-test&clientId=" + guid());
+        
+        //注册Action，名为clientTime
+        client.registerAction("clientTime",function(request, resolve,reject ){
+            resolve(""+new Date());
+        })
+
+        //注册Action，名为getPwd
+        client.registerAction("getPwd",function(request, resolve,reject ){
+            const pwd = request['pwd']
+            //调用假设的加密方法直接返回对应的结果
+            resolve(pwdEncypt(pwd))
+        })
+
+</script>
+</body>
+</html>
